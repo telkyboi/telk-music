@@ -57,24 +57,24 @@ client.login(token);
 ```
 
 __options__
-Name | type | example
-* `apikey`: string | 'google api key'
-* `prefix`: string | '-'
-* `maxQueueSize`: init | 100 (0 is unlimited)
-* `deletemsg`: true/false | false
-* `play_is_search`: true/false | true
-* `messages`: all strings 
+| Name | type | example|
+|apikey| string | 'google api key'|
+| prefix| string | '-'|
+| maxQueueSize| init | 100 (0 is unlimited)|
+| deletemsg| true/false | false|
+| play_is_search| true/false | true|
+| messages| all strings |
   - search | ':mag_right: **Searching**  \`{song}\` . . .'
   - added | ':musical_note: Added **{song}** to the queue!'
-  - play | ':notes: Now Playing **{song}**!'
+  - play | ':notes: Now Playing **{song}**!'|
   - loop | ':white_check_mark: loop turned **{toggle}**!'
   - end_of_queue | ':white_check_mark: We ran out of songs.'
   - channelerror | ':x: Sorry but you cannot use `{command}` in dms'
-* `emotes`: all strings
+| emotes| all strings|
   - x | ':x:'
   - check | ':white_check_mark:'
   - mag | ':mag_right:'
-* `othercmds`: true/false | true
+| othercmds| true/false | true
 
 
 __Extra Information__
